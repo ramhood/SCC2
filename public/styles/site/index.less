@@ -1,0 +1,323 @@
+/* CSS declarations go here */
+body{
+  background: url('/images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: Ubuntu, sans-serif;
+}
+header{
+  position: fixed;
+  right: 13%;
+  top: 0;
+  width: 7%;
+  z-index: 1000;
+}
+header img{
+  position: relative;
+  width: 80%;
+}
+header label{
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  font-size: .8em;
+  letter-spacing: 2px;
+}
+#scc{
+  position: fixed;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+}
+section{
+  position: fixed;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+
+}
+
+section .icon{
+
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+#programs_label{
+  visibility: hidden;
+  letter-spacing: 6px;
+  font-size: .8em;
+  text-transform: uppercase;
+  right: 150px;
+  top: 304px;
+  position: absolute;
+}
+#residency_label{
+  visibility: hidden;
+  letter-spacing: 6px;
+  font-size: .8em;
+  text-transform: uppercase;
+  right: 100px;
+  top: 154px;
+  position: absolute;
+}
+
+#about_label{
+  visibility: hidden;
+  letter-spacing: 6px;
+  font-size: .8em;
+  text-transform: uppercase;
+  right: 106px;
+  top: 80px;
+  position: absolute;
+}
+
+#about .content{
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  width: 487px;
+  height: 500px;
+  top: -290px;
+  left: -490px;
+
+
+}
+
+.about_carousel{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top:0;
+  left: 0;
+}
+.about_text{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 50%;
+  left: 0;
+}
+p{
+  font-size: .8em;
+  text-align: justify;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.bezier_transition{
+  -webkit-transition: all 1500ms cubic-bezier(1,.01,.83,.67);
+  -moz-transition: all 1500ms cubic-bezier(1,.01,.83,.67);
+  -ms-transition: all 1500ms cubic-bezier(1,.01,.83,.67);
+  -o-transition: all 1500ms cubic-bezier(1,.01,.83,.67);
+  transition: all 1500ms cubic-bezier(1,.01,.83,.67);
+}
+
+.linear_transition{
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+#contacts_label{
+  visibility: hidden;
+  letter-spacing: 6px;
+  font-size: .8em;
+  text-transform: uppercase;
+  right: -45px;
+  top: 75px;
+  position: absolute;
+}
+
+.contacts_eng{
+  position: absolute;
+  width: 233px;
+  top: -80px;
+  left: -486px;
+  font-size: 1em;
+  letter-spacing: 1px;
+  line-height: 17px;
+}
+
+.contacts_fa{
+  position: absolute;
+  width: 233px;
+  top: -80px;
+  left: -240px;
+  line-height: 17px;
+  direction: rtl;
+}
+
+#contacts .content{
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+
+
+
+//
+
+
+#scc img{
+  position: absolute;
+  width: 600px;
+  left: -650px;
+  top: -120px;
+}
+#news .icon{
+  position: absolute;
+  width: 600px;
+  left: -600px;
+  top: -420px;
+}
+#news .icon img{
+  width: 400px;
+}
+#publishing .icon{
+  position: absolute;
+  top: -410px;
+  left: -370px;
+}
+#publishing .icon img{
+  width: 430px;
+}
+#residency .icon{
+  position: absolute;
+  left: -600px;
+  top: 20px;
+}
+#residency .icon img{
+  width: 400px;
+}
+#events .icon{
+  position: absolute;
+  left: -170px;
+  top: -70px;
+}
+#events .icon img{
+  width: 290px;
+}
+#about .icon{
+  position: absolute;
+  left: -230px;
+  top: 120px;
+}
+#about .icon img{
+  width: 320px;
+}
+#programs .icon{
+  position: absolute;
+  top: -290px;
+  left: 0px;
+}
+#programs .icon img{
+  width: 650px;
+}
+#contacts .icon{
+  position: absolute;
+  top: -330px;
+  left: 0px;
+}
+#contacts .icon img{
+  width: 170px;
+}
+
+.img_area:hover{
+  cursor: pointer;
+}
+
+#programs .content{
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  width: 487px;
+  height: 500px;
+  left: -490px;
+  top: -210px;
+  overflow-y: auto;
+}
+
+.program_item .title{
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.program_item .title label{
+  background-color: #65d1df;
+  padding-left: 7px;
+  letter-spacing: 5px;
+  font-weight: normal;
+  line-height: 25px;
+  margin-bottom: 0;
+  min-width: 170px;
+}
+
+.program_item{
+  margin-bottom: 25px;
+}
+
+a{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: .6em;
+  padding: 1px;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.program_item .text{
+  position: relative;
+}
+
+.program_item .title{
+  position: relative;
+}
+p.en{
+  position: absolute;
+  z-index: 1;
+}
+
+p.fa{
+  z-index: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+label.en{
+  position: absolute;
+  z-index: 1;
+}
+
+label.fa{
+  z-index: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+a.lang_change{
+  visibility: hidden;
+}
+
+.program_item:hover .lang_change{
+  visibility: visible;
+}
+
+.fa{
+  font-family: 'B Mitra', tahoma, Arial;
+}
